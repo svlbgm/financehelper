@@ -1,18 +1,13 @@
-[filehelper]
-name = "filehelper"
+[tool.poetry]
+name = "financehelper"
 version = "0.1.0"
-authors = [
-  { name="Sevil", email="sevilbegum.gurcan@bahcesehir.edu.tr" },
-]
+authors = ["Sevil <sevilbegum.gurcan@bahcesehir.edu.tr>"]
 description = "a small python package that provides tools for financial data analysis"
 readme = "README.md"
 requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
+homepage = "https://github.com/svlbgm/financehelper.git"
+license = "MIT"
 
-[project.urls]
-Homepage = "https://github.com/svlbgm/financehelper.git"
-
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
